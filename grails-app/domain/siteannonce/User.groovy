@@ -8,7 +8,11 @@ class User {
     Illustration thumbnail
 
     static belongsTo = [author: User]
-    static hasMany = [illustratio: Illustration]
+
+    static hasMany = [illustrations: Illustration]
+
     static constraints = {
     }
+
+
 }
